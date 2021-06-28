@@ -1,0 +1,11 @@
+.cover {
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 5.75rem - 1.125rem - 1.5rem);
+  background-image: url(../../images/cover-trains.png);
+  background-size: cover;
+  background-position: center;
+}
