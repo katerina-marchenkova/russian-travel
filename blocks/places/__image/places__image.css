@@ -1,0 +1,9 @@
+.places__image {
+  margin: 0;
+
+  grid-area: image;
+
+  max-width: 100%;
+  padding-bottom: 100%;
+
+}
