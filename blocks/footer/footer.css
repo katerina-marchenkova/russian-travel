@@ -1,7 +1,10 @@
 .footer {
-  background-color: #1f1f1f;
-  color: white;
-
-  padding: 60px 0 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}
