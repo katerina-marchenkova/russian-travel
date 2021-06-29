@@ -1,17 +1,15 @@
-.header-logo {
+.header__logo {
   margin: 0;
   padding: 0;
 
-  text-decoration: none;
-  color: #FFFFFF;
-  -webkit-transition: opacity 0.3s ease-out 0.1s;
-  -moz-transition: opacity 0.3s ease-out 0.1s;
-  -ms-transition: opacity 0.3s ease-out 0.1s;
-  -o-transition: opacity 0.3s ease-out 0.1s;
-  transition: opacity 0.3s ease-out 0.1s;
+  height: auto;
+  max-height: 52px;
+  object-fit: contain;
 }
 
-.header__logo:hover {
-  opacity: 0.8;
-}
+@media screen and (max-width: 320px) {
+  .header__logo {
 
+    max-height: 42px;
+  }
+}

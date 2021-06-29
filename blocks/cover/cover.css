@@ -8,4 +8,7 @@
   background-image: url(../../images/cover-trains.png);
   background-size: cover;
   background-position: center;
+
+  display: grid;
+  align-items: center;
 }

@@ -10,21 +10,18 @@
   left: 0;
 
   cursor: pointer;
-  color: #FFF;
-  text-decoration: none;
+  z-index: 1;
 
   -webkit-transition: opacity 0.3s ease-out 0.1s;
   -moz-transition: opacity 0.3s ease-out 0.1s;
   -ms-transition: opacity 0.3s ease-out 0.1s;
   -o-transition: opacity 0.3s ease-out 0.1s;
   transition: opacity 0.3s ease-out 0.1s;
-
-  display: flex;
-  align-items: center;
 }
 
 .cover__overlay:hover {
   opacity: 0.8;
+  z-index: 2;
 
   text-decoration: none;
 }

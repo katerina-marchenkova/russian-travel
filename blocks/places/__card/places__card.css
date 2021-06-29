@@ -4,6 +4,7 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content max-content;
   grid-template-areas:
       "title website"
       "image description";
