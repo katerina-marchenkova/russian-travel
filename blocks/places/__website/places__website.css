@@ -2,3 +2,8 @@
   grid-area: website;
   align-self: end;
 }
+@media screen and (max-width: 425px) {
+  .places__website {
+    margin: 0 1rem;
+  }
+}

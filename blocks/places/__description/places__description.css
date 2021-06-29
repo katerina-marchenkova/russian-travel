@@ -2,3 +2,8 @@
   grid-area: description;
   align-self: start;
 }
+@media screen and (max-width: 425px) {
+  .places__description {
+    margin: 0 1rem;
+  }
+}
