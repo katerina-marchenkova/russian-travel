@@ -8,3 +8,10 @@
   font-size: 3.375rem;
   line-height: 1.07;
 }
+
+@media screen and (max-width: 425px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 109%;
+  }
+}

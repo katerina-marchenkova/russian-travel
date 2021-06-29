@@ -7,9 +7,6 @@
     margin: 0 9.25rem;
   }
 }
-@media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
-}
 @media screen and (max-width: 768px) {
   .lead {
     margin: 0;
