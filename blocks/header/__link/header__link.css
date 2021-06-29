@@ -20,13 +20,13 @@
   transition: opacity 0.3s ease-out 0.1s;
 }
 
-.header__language-link:hover {
+.header__link:hover {
   text-decoration: underline;
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-  .header__language-link {
+@media screen and (max-width: 425px) {
+  .header__link {
     font-size: 1.125rem;
   }
 }

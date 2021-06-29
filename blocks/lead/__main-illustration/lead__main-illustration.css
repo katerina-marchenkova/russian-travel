@@ -1,4 +1,18 @@
 .lead__main-illustration {
+  margin: 3.5rem 0 0;
   width: 100%;
+}
 
+@media screen and (min-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+  .lead__main-illustration {
+    margin: 4rem 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+  .lead__main-illustration {
+    margin: 2.5rem 2px 0;
+  }
 }
