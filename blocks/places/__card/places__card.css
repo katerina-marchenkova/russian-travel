@@ -31,9 +31,9 @@
   .places__card {
     grid-template-columns: 1fr;
     grid-template-areas:
-        "title",
-        "website",
-        "image",
+        "title"
+        "website"
+        "image"
         "description";
   }
 
