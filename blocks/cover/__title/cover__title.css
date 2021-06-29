@@ -19,5 +19,7 @@
   .cover__title {
     font-size: 2rem;
     line-height: 109%;
+
+    max-width: 75%;
   }
 }
