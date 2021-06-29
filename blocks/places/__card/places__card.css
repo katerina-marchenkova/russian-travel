@@ -27,7 +27,7 @@
     margin: 4.56rem 0 0;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .places__card {
     grid-template-columns: 1fr;
     grid-template-areas:
