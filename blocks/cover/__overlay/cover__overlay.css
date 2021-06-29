@@ -17,11 +17,13 @@
   -ms-transition: opacity 0.3s ease-out 0.1s;
   -o-transition: opacity 0.3s ease-out 0.1s;
   transition: opacity 0.3s ease-out 0.1s;
+
+  display: grid;
+  align-items: center;
 }
 
 .cover__overlay:hover {
   opacity: 0.8;
-  z-index: 2;
 
   text-decoration: none;
 }

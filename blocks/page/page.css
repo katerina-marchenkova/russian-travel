@@ -5,6 +5,13 @@
   box-sizing: border-box;
 
   font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
 
   font-size: 1rem;
   font-weight: normal;
@@ -16,7 +23,6 @@
   display: grid;
   grid-template-columns: 3em 1fr 3em;
   grid-template-rows: 3.25rem 1fr min-content;
-
 
   grid-template-areas:
     ". header ."
@@ -36,4 +42,3 @@
     grid-template-columns: 1em 1fr 1em;
   }
 }
-

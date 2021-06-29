@@ -8,4 +8,9 @@
 
   max-width: 38%;
   text-align: center;
+
+  opacity: 1;
+  color: #fff;
+
+  z-index: 2;
 }
