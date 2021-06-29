@@ -1,5 +1,5 @@
 .header {
-  min-height: 52px;
+  grid-area: header;
 
   color: #FFFFFF;
 
