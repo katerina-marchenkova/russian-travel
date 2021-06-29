@@ -1,4 +1,25 @@
 .places__link {
   margin: 0;
+  padding: 0;
 
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 122%;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+
+  color: #fff;
+
+  -webkit-transition: opacity 0.3s ease-out 0.1s;
+  -moz-transition: opacity 0.3s ease-out 0.1s;
+  -ms-transition: opacity 0.3s ease-out 0.1s;
+  -o-transition: opacity 0.3s ease-out 0.1s;
+  transition: opacity 0.3s ease-out 0.1s;
+}
+
+.places__link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }

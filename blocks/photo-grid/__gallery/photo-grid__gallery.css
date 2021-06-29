@@ -8,3 +8,10 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 1rem;
 }
+
+@media screen and (min-width: 1440px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .photo-grid__gallery  {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

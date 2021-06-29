@@ -1,3 +1,4 @@
 .places__description {
   grid-area: description;
+  align-self: start;
 }
