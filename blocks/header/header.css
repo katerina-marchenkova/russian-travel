@@ -1,8 +1,4 @@
 .header {
-  grid-area: header;
-
-  color: #ffffff;
-
   position: relative;
 
   display: flex;
@@ -10,4 +6,16 @@
   align-items: center;
 
   overflow: hidden;
+}
+
+@media screen and (max-width: 790px) {
+  .header {
+    margin: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin: 0 1rem;
+  }
 }

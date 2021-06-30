@@ -1,5 +1,5 @@
 .footer {
-  grid-area: footer;
+  margin: 0;
   padding: 5.75em 0 0;
 
   display: flex;
@@ -7,9 +7,21 @@
   align-items: baseline;
 }
 
+@media screen and (max-width: 790px) {
+  .footer {
+    margin: 0 1.5rem;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer {
     padding: 3.5em 0 0;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin: 0 1rem;
   }
 }

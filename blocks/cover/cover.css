@@ -1,9 +1,9 @@
 .cover {
-  margin: 0 3rem;
+  margin: 0;
   padding: 0;
 
   position: relative;
-  min-height: calc((100vw - 3rem) / 1.6);
+  min-height: calc(100vw / 1.6);
   background-image: url(../../images/cover-trains.png);
   background-size: cover;
   background-position: center;
@@ -14,9 +14,8 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1184px) {
   .cover {
-    margin: 0;
-    min-height: calc(100vw / 1.6);
+    min-height: calc(1184px / 1.6);
   }
 }
