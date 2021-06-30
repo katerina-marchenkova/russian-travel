@@ -13,14 +13,33 @@
 
   max-width: 640px;
 }
-@media screen and (max-width: 767px) {
-  .lead__subtitle {
-    font-size: 1.4rem;
-    max-width: 80%;
-  }
-}
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 720px) {
   .lead__subtitle {
     font-size: 1rem;
+    max-width: 45%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .lead__subtitle {
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lead__subtitle {
+    max-width: 65%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .lead__subtitle {
+
+    max-width: 90%;
   }
 }
