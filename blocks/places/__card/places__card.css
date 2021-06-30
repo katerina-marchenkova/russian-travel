@@ -6,24 +6,24 @@
   gap: 3rem 2.5rem;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-      "title website"
-      "image description";
+    "title website"
+    "image description";
 }
-.places__card+.places__card{
+.places__card + .places__card {
   margin: 5rem 0 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .places__card{
+  .places__card {
     gap: 3rem 2rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .places__card{
+  .places__card {
     gap: 3rem 1.75rem;
   }
 
-  .places__card+.places__card{
+  .places__card + .places__card {
     margin: 4.56rem 0 0;
   }
 }
@@ -31,14 +31,13 @@
   .places__card {
     grid-template-columns: 1fr;
     grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "description";
+      "title"
+      "website"
+      "image"
+      "description";
   }
 
-  .places__card+.places__card{
+  .places__card + .places__card {
     margin: 3.125rem 0 0;
   }
 }
-
