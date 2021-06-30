@@ -3,7 +3,7 @@
   padding: 0;
 
   position: relative;
-  height: calc((100vw - 3rem) / 1.6);
+  min-height: calc((100vw - 3rem) / 1.6);
   background-image: url(../../images/cover-trains.png);
   background-size: cover;
   background-position: center;
@@ -17,6 +17,6 @@
 @media screen and (max-width: 1024px) {
   .cover {
     margin: 0;
-    height: calc(100vw / 1.6);
+    min-height: calc(100vw / 1.6);
   }
 }
