@@ -2,7 +2,7 @@
   grid-area: website;
   align-self: end;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 720px) {
   .places__website {
     margin: 0 1rem;
   }
