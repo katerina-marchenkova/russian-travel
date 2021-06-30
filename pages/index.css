@@ -28,6 +28,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__fact-list/intro__fact-list.css);
 @import url(../blocks/intro/__fact-item/intro__fact-item.css);
+@import url(../blocks/intro/__fact-value/intro__fact-value.css);
 
 /* photo grid */
 @import url(../blocks/photo-grid/photo-grid.css);
