@@ -16,13 +16,25 @@
 
 @media screen and (max-width: 860px) {
   .cover__title {
-    max-width: 66%;
+    max-width: 67%;
   }
 }
 
 @media screen and (max-width: 780px) {
   .cover__title {
     max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 732px) {
+  .cover__title {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .cover__title {
+    max-width: 85%;
   }
 }
 
