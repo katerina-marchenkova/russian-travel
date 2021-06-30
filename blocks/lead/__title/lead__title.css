@@ -13,15 +13,23 @@
   max-width: 680px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 732px) {
   .lead__title {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
 
-    max-width: 336px;
+    max-width: 85%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
+  .lead__title {
+    font-size: 2.5rem;
+
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .lead__title {
     max-width: 60%;
   }
@@ -35,7 +43,7 @@
 
 @media screen and (max-width: 425px) {
   .lead__title {
-    max-width: 75%;
+    max-width: 80%;
   }
 }
 

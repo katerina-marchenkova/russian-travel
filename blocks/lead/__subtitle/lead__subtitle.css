@@ -13,20 +13,28 @@
   max-width: 640px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 732px) {
   .lead__subtitle {
-    font-size: 1rem;
-    max-width: 45%;
+    font-size: 1.5rem;
+
+    max-width: 70%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
+  .lead__subtitle {
+    font-size: 1rem;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 580px) {
   .lead__subtitle {
     max-width: 55%;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 500px) {
   .lead__subtitle {
     max-width: 65%;
   }
