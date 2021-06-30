@@ -23,6 +23,6 @@
   /* стили для широкого смартфона */
   .lead__main-illustration {
     margin: 2.5rem 2px 0;
-    max-width: calc(100vw - 2* 0.125rem);
+    max-width: 98%;
   }
 }
