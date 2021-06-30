@@ -11,21 +11,50 @@
 
   color: #fff;
 
-  max-width: 720px;
+  max-width: 680px;
 }
+
 
 @media screen and (max-width: 767px) {
   .lead__title {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
 
-    max-width: 380px;
+    max-width: 336px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 610px) {
+  .lead__title {
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 510px) {
   .lead__title {
     font-size: 2.5rem;
 
-    max-width: 90vw;
+    max-width: 66%;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .lead__title {
+
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .lead__title {
+
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .lead__title {
+
+    max-width: calc(100vw - 2 * 0.125rem);
   }
 }

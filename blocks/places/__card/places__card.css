@@ -1,5 +1,5 @@
 .places__card {
-  margin: 0;
+  margin: 0 0 5rem;
   padding: 0;
 
   display: grid;
@@ -9,8 +9,8 @@
     "title website"
     "image description";
 }
-.places__card + .places__card {
-  margin: 5rem 0 0;
+.places__card:last-of-type() {
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,17 +18,21 @@
     gap: 3rem 2rem;
   }
 }
+
 @media screen and (max-width: 768px) {
   .places__card {
+    margin: 0 0 4.56rem;
     gap: 3rem 1.75rem;
   }
 
-  .places__card + .places__card {
-    margin: 4.56rem 0 0;
+  .places__card:last-of-type() {
+    margin: 0;
   }
 }
+
 @media screen and (max-width: 540px) {
   .places__card {
+    margin: 0 0 3.125rem;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
@@ -37,7 +41,7 @@
       "description";
   }
 
-  .places__card + .places__card {
-    margin: 3.125rem 0 0;
+  .places__card:last-of-type() {
+    margin: 0;
   }
 }

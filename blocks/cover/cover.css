@@ -7,6 +7,11 @@
   background-image: url(../../images/cover-trains.png);
   background-size: cover;
   background-position: center;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {

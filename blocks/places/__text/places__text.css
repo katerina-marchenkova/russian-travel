@@ -1,5 +1,5 @@
 .places__text {
-  margin: 0;
+  margin: 0 0 1.7rem;
   padding: 0;
 
   font-style: normal;
@@ -11,16 +11,17 @@
   color: #fff;
 }
 
-.places__text + .places__text {
-  margin-top: 1.7;
+.places__text:last-of-type() {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
   .places__text {
+    margin: 0 0 1.56rem;
     font-size: 1rem;
   }
 
-  .places__text + .places__text {
-    margin-top: 1.56;
+  .places__text:last-of-type() {
+    margin: 0;
   }
 }

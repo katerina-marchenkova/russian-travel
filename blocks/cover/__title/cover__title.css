@@ -12,8 +12,6 @@
   opacity: 1;
   text-decoration: none;
   color: #fff;
-
-  z-index: 2;
 }
 @media screen and (max-width: 768px) {
   .cover__title {

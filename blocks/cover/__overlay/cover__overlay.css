@@ -19,8 +19,8 @@
   -o-transition: opacity 0.3s ease-out 0.1s;
   transition: opacity 0.3s ease-out 0.1s;
 
-  display: grid;
-  align-items: center;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .cover__overlay:hover {
