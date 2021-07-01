@@ -6,14 +6,13 @@
 @media screen and (max-width: 1184px) {
   .intro {
     margin: 0 3rem;
-    max-width: calc(100vw - 2 * 3rem);
   }
 }
 
 @media screen and (max-width: 790px) {
   .intro {
     margin: 0 1.5rem;
-    max-width: calc(100vw - 2 * 1.5rem);
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 425px) {
