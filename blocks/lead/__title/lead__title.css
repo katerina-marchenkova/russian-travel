@@ -7,7 +7,19 @@
   line-height: 1.04;
   text-align: center;
   color: #fff;
-  max-width: 680px;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .lead__title {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 732px) {
