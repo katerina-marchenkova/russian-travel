@@ -1,8 +1,5 @@
 .lead__main-illustration {
   margin: 4rem 0 0;
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
 }
 
 @media screen and (max-width: 1184px) {
