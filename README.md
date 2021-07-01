@@ -1,7 +1,7 @@
 # Demo Project: Travel Russia
 ------
 This is a demo project to demonstrate skills and techniques knowledge for CCS, HTML5, BEM methodology and adaptive design.
-A simple web page describes locations for travel in Russia.
+A simple [web page]((https://katerina-marchenkova.github.io/russian-travel/)) describes locations for travel in Russia.
 
 **CCS Tricks**
 * positioning
@@ -26,12 +26,18 @@ A simple web page describes locations for travel in Russia.
 Download the project source code and browse the index.html from the project root folder.
 * Project design markup see [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 * Coding standards [Yandex Coding Standards RU](https://code.s3.yandex.net/frontend-developer/landings/layout-design-rules/index.html)
-* Custom fonts: [Inter] https://rsms.me/inter/
-* Image optimization:
-  ** [PNG](https://tinypng.com/)
-  ** [SVG](https://jakearchibald.github.io/svgomg/)
+* Custom fonts: [Inter](https://rsms.me/inter/)
+* Image optimization tools:
+  * * [PNG](https://tinypng.com/)
+  * * [SVG](https://jakearchibald.github.io/svgomg/)
 
 ## Build and Test
-There is no project build or distribution folder configured yet. No webpack or ccs pre-processors used yet.
-The Github pages are used to publish the project [here](https://katerina-marchenkova.github.io/russian-travel/)
+There is no particular project build or distribution folder configured yet.
+Consider webpack or if node sass.
+* ccs pre-processor: not yet configured
+* minifier: not yet configured
+* bundler: not yet configured
+
+## Build and Test
+The Github Pages is used to publish the project [here](https://katerina-marchenkova.github.io/russian-travel/)
 
