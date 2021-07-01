@@ -11,8 +11,6 @@
 @media screen and (max-width: 425px) {
   .footer__menu-item {
     margin: 0 0 2rem;
-    font-style: normal;
-    font-weight: normal;
     font-size: 1.5rem;
     line-height: 1;
     /* identical to box height, or 100% */
