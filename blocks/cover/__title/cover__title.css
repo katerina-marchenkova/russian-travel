@@ -4,23 +4,11 @@
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 106%;
-  max-width: 60%;
+  max-width: 560px;
   text-align: center;
   opacity: 1;
   text-decoration: none;
   color: #fff;
-}
-
-@media screen and (max-width: 860px) {
-  .cover__title {
-    max-width: 67%;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .cover__title {
-    max-width: 75%;
-  }
 }
 
 @media screen and (max-width: 732px) {

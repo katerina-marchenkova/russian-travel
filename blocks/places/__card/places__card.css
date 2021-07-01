@@ -40,8 +40,4 @@
       "image"
       "description";
   }
-
-  .places__card:last-of-type() {
-    margin: 0;
-  }
 }
