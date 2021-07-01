@@ -1,13 +1,11 @@
+/* todo: katya - revert code style  ie empty string between properties group after pass the review*/
 .cover__container {
   position: relative;
   margin: 0 auto;
-
   opacity: 1;
   z-index: 1;
-
   grid-column: 1;
   grid-row: 1;
-
   text-decoration: none;
   color: #fff;
 }

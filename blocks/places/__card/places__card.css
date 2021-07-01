@@ -1,7 +1,6 @@
 .places__card {
   margin: 0 0 5rem;
   padding: 0;
-
   display: grid;
   gap: 3rem 2.5rem;
   grid-template-columns: 1fr 1fr;
@@ -9,6 +8,7 @@
     "title website"
     "image description";
 }
+
 .places__card:last-of-type() {
   margin: 0;
 }
