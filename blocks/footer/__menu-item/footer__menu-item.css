@@ -16,7 +16,7 @@
     /* identical to box height, or 100% */
   }
 
-  .footer__menu-item:last-of-type() {
+  .footer__menu-item:last-child {
     margin: 0;
   }
 }

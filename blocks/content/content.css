@@ -1,5 +1,5 @@
 .content {
-  margin: 3rem 0 5.75rem;
+  margin: 3rem 0 0;
   display: grid;
   grid-template-columns: 1fr;
   gap: 5.75rem;
@@ -13,14 +13,12 @@
 
 @media screen and (max-width: 768px) {
   .content {
-    margin-bottom: 5.5rem;
     gap: 5.5rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content {
-    margin-bottom: 4rem;
     gap: 4rem;
   }
 }

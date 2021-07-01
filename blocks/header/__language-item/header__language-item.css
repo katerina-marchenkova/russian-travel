@@ -3,6 +3,6 @@
   padding: 0;
 }
 
-.header__language-item:last-of-type() {
+.header__language-item:last-child {
   margin: 0;
 }
