@@ -1,43 +1,41 @@
-# Demo Project: Travel Russia
+# Учебный проект: Путешествие по России
 ------
-This is a demo project to demonstrate skills and techniques knowledge for CCS, HTML5, BEM methodology and adaptive design.
-A simple [web page]((https://katerina-marchenkova.github.io/russian-travel/)) describes locations for travel in Russia.
+Это учебный проект демонстрирующий навыки CCS, HTML5, БЭМ и адаптивной верстки.
+Простая [веб страница](https://katerina-marchenkova.github.io/russian-travel/) про путешествия по России.
 
-**CCS Tricks**
-* positioning
-* flexbox
-* ccs grid
-* background images
-* animation (transitions)
+**CCS навыки**
+* позиционирование
+* флексбоксы
+* гриды
+* фоновые картинки
+* анимация (транформация)
 
 **HTML5**
 * semantics
 
-## Browser Support
+## Поддержка интернет - проводников
 * Google Chrome 91.0.4472.77
 
-## Device Screens Supported
-* Small mobile: 320px
-* Tablet: 768px
-* Notebook: 1024px
-* Desktop: 1280px
+## Поддерживаемые разрешения экранов
+* Мобильный: 320px
+* Планшет: 768px
+* Ноутбук: 1024px
+* Настольный компьютер: 1280px
 
-## Getting Started
-Download the project source code and browse the index.html from the project root folder.
-* Project design markup see [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-* Coding standards [Yandex Coding Standards RU](https://code.s3.yandex.net/frontend-developer/landings/layout-design-rules/index.html)
-* Custom fonts: [Inter](https://rsms.me/inter/)
-* Image optimization tools:
+## Для работы над проектов
+Скачайте проект и запустите index.html в интернет проводнике.
+* Макет проекта см [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* Стандарты оформления кода [Стандарты оформления кода](https://code.s3.yandex.net/frontend-developer/landings/layout-design-rules/index.html)
+* Шрифт: [Inter](https://rsms.me/inter/)
+* Для оптимизация картинок:
   * * [PNG](https://tinypng.com/)
   * * [SVG](https://jakearchibald.github.io/svgomg/)
 
-## Build and Test
-There is no particular project build or distribution folder configured yet.
-Consider webpack or if node sass.
-* ccs pre-processor: not yet configured
-* minifier: not yet configured
-* bundler: not yet configured
+## Сборка и тестирование
+Не настроена пока.
+* нет препроцессора для стилей
+* нет минификации
+* нет хеширования
 
-## Build and Test
-The Github Pages is used to publish the project [here](https://katerina-marchenkova.github.io/russian-travel/)
-
+## Развертывание
+Сейчас развертывается на Github Pages[здесь](https://katerina-marchenkova.github.io/russian-travel/)
