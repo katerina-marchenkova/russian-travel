@@ -1,6 +1,8 @@
 .places__website {
   grid-area: website;
   align-self: end;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 620px) {
   .places__website {
