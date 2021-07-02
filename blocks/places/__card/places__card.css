@@ -5,6 +5,7 @@
   display: grid;
   gap: 3rem 2.5rem;
   grid-template-columns: 1fr minmax(49%, min-content);
+  grid-template-rows: minmax(min-content, max-content);
   grid-template-areas:
     "title website"
     "image description";
@@ -22,14 +23,15 @@
 
 @media screen and (max-width: 768px) {
   .places__card {
-    margin: 0 0 4.56rem;
+    margin: 0 0 73px;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem 1.75rem;
   }
 }
 
 @media screen and (max-width: 620px) {
   .places__card {
-    margin: 0 0 3.125rem;
+    margin: 0 0 50px;
     gap: 2rem;
     grid-template-columns: 1fr;
     grid-template-areas:
